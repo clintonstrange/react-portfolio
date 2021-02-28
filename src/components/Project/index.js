@@ -40,11 +40,15 @@ function Project() {
     },
   ]);
   return (
-    <div>
+    <div
+      id="project container"
+      className="d-flex flex-wrap justify-content-around mb-3"
+    >
       {projects.map((project) => (
-        <div>
+        <div id="project" className="p-3">
           <div>
             <img
+              className="img-fluid rounded mx-auto"
               alt={project.title}
               src={require(`../../assets/images/${project.image}`).default}
             />
