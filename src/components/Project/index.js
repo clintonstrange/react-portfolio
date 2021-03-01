@@ -42,14 +42,13 @@ function Project() {
   return (
     <div id="project-container" className="m-3">
       {projects.map((project) => (
-        <div id="project" className="card p-3 m-3">
+        <div id="project" className="card p-3 m-3" key={project.title}>
           <div className="card-img-top">
             <img
               id="project-img"
               className="img-fluid rounded mx-auto"
               alt={project.title}
               src={require(`../../assets/images/${project.image}`).default}
-              key={project.title}
             />
           </div>
           <h2 className="text-center">
