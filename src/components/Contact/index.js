@@ -37,8 +37,8 @@ function Contact() {
   };
 
   return (
-    <section>
-      <h1 className="text-center" data-testid="h1tag">
+    <section id="contact" className="m-3">
+      <h1 className="font-color text-center" data-testid="h1tag">
         Contact me
       </h1>
       <form
@@ -66,7 +66,7 @@ function Contact() {
             onBlur={handleChange}
           />
         </div>
-        <div className=" form-group row p-2">
+        <div className="form-group row p-2">
           <label htmlFor="message">Message:</label>
           <textarea
             className="w-100"
@@ -77,12 +77,13 @@ function Contact() {
           />
         </div>
         {errorMessage && (
-          <div className="row p-2">
+          <div className="row">
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
         <button
-          className="row text-center m-2"
+          id="contact-btn"
+          className="row text-center"
           data-testid="button"
           type="submit"
         >

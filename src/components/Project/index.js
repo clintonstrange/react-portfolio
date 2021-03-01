@@ -45,20 +45,25 @@ function Project() {
       className="d-flex flex-wrap justify-content-around mb-3"
     >
       {projects.map((project) => (
-        <div id="project" className="p-3">
-          <div>
+        <div id="project" className="card p-3 m-3">
+          <div className="card-img-top">
             <img
+            id="project-img"
               className="img-fluid rounded mx-auto"
               alt={project.title}
               src={require(`../../assets/images/${project.image}`).default}
+              key={project.title}
             />
           </div>
-          <h2>{project.title}</h2>
-          <p>
-            <a href={project.link}>Deployed Application</a>
-          </p>
-          <p>
-            <a href={project.repo}>Project Repository</a>
+          <h2 className="text-center">
+            <a href={project.link} className="card-text">
+              {project.title}
+            </a>
+          </h2>
+          <p className="text-center">
+            <a href={project.repo}>
+              <span className="card-text fab fa-github text-center display-4"></span>
+            </a>
           </p>
         </div>
       ))}

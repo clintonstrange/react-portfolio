@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #605856;
 }
 
 code {
@@ -12,8 +13,56 @@ code {
     monospace;
 }
 
+#header {
+  background-color: #74d3ae;
+}
+
+#brand {
+  font-size: 24px;
+  color: #274156;
+}
+
+#toggle {
+  background-color: #605856;
+  color: #f9e7e7;
+}
+
 #propic {
   border-radius: 50%;
+}
+
+#project,
+.about-container,
+#contact,
+#resume-container {
+  border: 3px solid #74d3ae;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+#project-img {
+  border: 2px solid #74d3ae;
+}
+
+.card-text {
+  color: #1c6e8c;
+}
+
+.font-color {
+  color: #274156;
+}
+
+#contact-btn {
+  border: 3px solid #74d3ae;
+  border-radius: 10px;
+  background-color: #1c6e8c;
+  color: #f9e7e7;
+  padding: 10px 30px;
+  margin: 0 auto;
+}
+
+.foot-icon {
+  color: #f9f9f9;
 }
 
 /* @media (max-width: 768px) {

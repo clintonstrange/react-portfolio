@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Nav from "../Nav";
 
 function Header(props) {
@@ -14,11 +14,12 @@ function Header(props) {
   } = props;
 
   return (
-    <header className="navbar navbar-expand-lg navbar-light bg-light">
-      <h1 className="navbar-brand">
-        <a href="#about">Clint Strange</a>
+    <header id="header" className="navbar navbar-expand-lg">
+      <h1 id="brand" className="navbar-brand">
+        Clint Strange
       </h1>
       <button
+        id="toggle"
         className="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -27,7 +28,7 @@ function Header(props) {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon"></span>
+        <span className="fas fa-bars"></span>
       </button>
       <Nav
         aboutSelected={aboutSelected}
