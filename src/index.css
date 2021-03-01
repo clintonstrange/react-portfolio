@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #605856;
+  background-image: url("./assets/images/wood.jpg");
 }
 
 code {
@@ -14,7 +14,7 @@ code {
 }
 
 #header {
-  background-color: #74d3ae;
+  background-image: url("./assets/images/leaves.jpg");
 }
 
 #brand {
@@ -25,7 +25,7 @@ code {
 .nav-btn {
   border: none;
   border-radius: 4px;
-  background-color: #74d3ae;
+  background-color: rgba(255, 255, 255, 0.25);
   color: #274156;
   font-size: 20px;
 }
