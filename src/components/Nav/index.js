@@ -1,10 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 function Nav(props) {
   const {
-    titles = [],
-    currentTitle,
-    setCurrentTitle,
     aboutSelected,
     setAboutSelected,
     portfolioSelected,
@@ -15,15 +12,11 @@ function Nav(props) {
     setResumeSelected,
   } = props;
 
-  //   useEffect(() => {
-  //     document.title = currentTitle.name;
-  //   }, [currentTitle]);
-
   return (
     <nav className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li
-          className="nav-item mx-4"
+          className="nav-item mx-4 my-1 py-1"
           onClick={() => {
             setAboutSelected(true);
             setPortfolioSelected(false);
@@ -36,7 +29,7 @@ function Nav(props) {
           </button>
         </li>
         <li
-          className="nav-item mx-4"
+          className="nav-item mx-4 my-1 py-1"
           onClick={() => {
             setAboutSelected(false);
             setPortfolioSelected(true);
@@ -49,7 +42,7 @@ function Nav(props) {
           </button>
         </li>
         <li
-          className="nav-item mx-4"
+          className="nav-item mx-4 my-1 py-1"
           onClick={() => {
             setAboutSelected(false);
             setPortfolioSelected(false);
@@ -62,7 +55,7 @@ function Nav(props) {
           </button>
         </li>
         <li
-          className="nav-item mx-4"
+          className="nav-item mx-4 my-1 py-1"
           onClick={() => {
             setAboutSelected(false);
             setPortfolioSelected(false);

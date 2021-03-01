@@ -18,7 +18,7 @@ code {
 }
 
 #brand {
-  font-size: 24px;
+  font-size: 36px;
   color: #274156;
 }
 
@@ -27,6 +27,7 @@ code {
   border-radius: 4px;
   background-color: #74d3ae;
   color: #274156;
+  font-size: 20px;
 }
 
 .nav-btn:hover {
@@ -41,12 +42,20 @@ code {
 }
 
 #toggle {
-  background-color: #74d3ae;
+  background-color: #274156;
   color: #f9e7e7;
+}
+
+#propic-container {
+  max-width: 300px;
 }
 
 #propic {
   border-radius: 50%;
+}
+
+#about-text {
+  max-width: 400px;
 }
 
 #project,
@@ -56,6 +65,11 @@ code {
   border: 3px solid #74d3ae;
   border-radius: 10px;
   background-color: #f9f9f9;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 #project-img {
@@ -74,7 +88,7 @@ code {
   border: 3px solid #74d3ae;
   border-radius: 10px;
   background-color: #1c6e8c;
-  color: #f9e7e7;
+  color: #f9e7e73b;
   padding: 10px 30px;
   margin: 0 auto;
 }
@@ -83,59 +97,14 @@ code {
   color: #f9f9f9;
 }
 
-/* @media (max-width: 768px) {
-  #project {
-    width: 100%;
-  }
-
-  #propic {
-    width: 50%;
-    margin: 0, auto;
-  }
-
-  #about {
-    text-align: center;
-  }
+@media (max-width: 768px) {
 }
 
 @media (min-width: 768.1px) and (max-width: 991.99px) {
-  #project {
-    width: 100%;
-  }
-
-  #propic {
-    width: 30%;
-    margin: 0, auto;
-  }
-
-  #about {
-    text-align: center;
-  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  #project {
-    width: 50%;
-    margin: 0, auto;
-  }
-
-  #propic {
-    width: 20%;
-    margin: 0, auto;
-  }
-
-  #propic-container {
-    max-width: 300px;
-  }
 }
 
 @media (min-width: 1200px) {
-  #project {
-    width: 33%;
-  }
-
-  #propic {
-    width: 20%;
-    margin: 0, auto;
-  }
-} */
+}
