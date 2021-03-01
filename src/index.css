@@ -22,8 +22,26 @@ code {
   color: #274156;
 }
 
+.nav-btn {
+  border: none;
+  border-radius: 4px;
+  background-color: #74d3ae;
+  color: #274156;
+}
+
+.nav-btn:hover {
+  background-color: #f9e7e7;
+  color: #274156;
+  transition: 1s;
+}
+
+.navActive {
+  background-color: #1c6e8c;
+  color: #f9e7e7;
+}
+
 #toggle {
-  background-color: #605856;
+  background-color: #74d3ae;
   color: #f9e7e7;
 }
 

@@ -8,6 +8,15 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
 function App() {
+  const [titles] = useState([
+    { name: "About Me" },
+    { name: "Portfolio" },
+    { name: "Contact" },
+    { name: "Resume" },
+  ]);
+
+  const [currentTitle, setCurrentTitle] = useState(titles[0]);
+
   const [aboutSelected, setAboutSelected] = useState(true);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
   const [contactSelected, setContactSelected] = useState(false);
@@ -16,6 +25,9 @@ function App() {
     <div>
       <main>
         <Header
+          titles={titles}
+          currentTitle={currentTitle}
+          setCurrentTitle={setCurrentTitle}
           aboutSelected={aboutSelected}
           setAboutSelected={setAboutSelected}
           portfolioSelected={portfolioSelected}
