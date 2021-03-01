@@ -58,11 +58,11 @@ code {
   max-width: 400px;
 }
 
-#project,
+#project-container,
 .about-container,
 #contact,
 #resume-container {
-  border: 3px solid #74d3ae;
+  border: 4px solid #74d3ae;
   border-radius: 10px;
   background-color: #f9f9f9;
 }
@@ -72,8 +72,21 @@ code {
   margin: 0 auto;
 }
 
+#project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #274156;
+}
+
+#project {
+  border: 4px solid #74d3ae;
+  max-width: 400px;
+}
+
 #project-img {
-  border: 2px solid #74d3ae;
+  border: 4px solid #74d3ae;
 }
 
 .card-text {
@@ -113,16 +126,4 @@ code {
 
 .foot-icon {
   color: #f9f9f9;
-}
-
-@media (max-width: 768px) {
-}
-
-@media (min-width: 768.1px) and (max-width: 991.99px) {
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-}
-
-@media (min-width: 1200px) {
 }

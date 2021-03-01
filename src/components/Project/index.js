@@ -40,10 +40,7 @@ function Project() {
     },
   ]);
   return (
-    <div
-      id="project container"
-      className="d-flex flex-wrap justify-content-around mb-3"
-    >
+    <div id="project-container" className="m-3">
       {projects.map((project) => (
         <div id="project" className="card p-3 m-3">
           <div className="card-img-top">
