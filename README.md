@@ -1,4 +1,4 @@
-# Clint's React Portfolop
+# Clint's React Portfolio
 
 ## Description
 
@@ -8,7 +8,7 @@ This application uses react to generate Clint's Portfolio
 
 ## Table of Contents
 
-- [Clint's React Portfolop](#clints-react-portfolop)
+- [Clint's React Portfolio](#clints-react-portfolio)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
