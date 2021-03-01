@@ -8,7 +8,11 @@ function Resume() {
         Download my{" "}
         <span>
           {" "}
-          <a className="card-text" href="/" target="blank">
+          <a
+            className="card-text"
+            href="../../assets/doc/clint-strange-resume.pdf"
+            download="clint-strange-resume.pdf"
+          >
             resume.
           </a>
         </span>

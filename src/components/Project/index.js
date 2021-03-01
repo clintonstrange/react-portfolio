@@ -56,12 +56,12 @@ function Project() {
             />
           </div>
           <h2 className="text-center">
-            <a href={project.link} className="card-text">
+            <a href={project.link} target="blank" className="card-text">
               {project.title}
             </a>
           </h2>
           <p className="text-center">
-            <a href={project.repo}>
+            <a href={project.repo} target="blank">
               <span className="card-text fab fa-github text-center display-4"></span>
             </a>
           </p>
