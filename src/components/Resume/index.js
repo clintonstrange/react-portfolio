@@ -11,7 +11,7 @@ function Resume() {
             {" "}
             <a
               className="card-text"
-              href="../../assets/doc/clint-strange-resume.pdf"
+              href="/clint-strange-resume.pdf"
               download="clint-strange-resume.pdf"
             >
               resume.
