@@ -14,7 +14,7 @@ function About() {
           <div className="d-flex justify-content-center" id="propic-container">
             <img
               id="propic"
-              className="px-3"
+              className="img-fluid px-3"
               alt="Clint Strange"
               src={require(`../../assets/images/002_0.jpg`).default}
             ></img>

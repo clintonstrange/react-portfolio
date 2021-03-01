@@ -53,6 +53,7 @@ code {
 #propic {
   border-radius: 50%;
   max-width: 275px;
+  height: fit-content;
 }
 
 #about-text {
