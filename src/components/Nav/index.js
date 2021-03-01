@@ -1,28 +1,63 @@
 import React from "react";
 
-function Nav() {
+function Nav(props) {
+  const {
+    setAboutSelected,
+    setPortfolioSelected,
+    setContactSelected,
+    setResumeSelected,
+  } = props;
+
   return (
     <nav className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item mx-4">
-          <a className="nav-link" href="#about">
+          <span
+            onClick={() => {
+              setAboutSelected(true);
+              setPortfolioSelected(false);
+              setContactSelected(false);
+              setResumeSelected(false);
+            }}
+          >
             About me
-          </a>
+          </span>
         </li>
         <li className="nav-item mx-4">
-          <a className="nav-link" href="/">
+          <span
+            onClick={() => {
+              setAboutSelected(false);
+              setPortfolioSelected(true);
+              setContactSelected(false);
+              setResumeSelected(false);
+            }}
+          >
             Portfolio
-          </a>
+          </span>
         </li>
         <li className="nav-item mx-4">
-          <a className="nav-link" href="/">
+          <span
+            onClick={() => {
+              setAboutSelected(false);
+              setPortfolioSelected(false);
+              setContactSelected(true);
+              setResumeSelected(false);
+            }}
+          >
             Contact me
-          </a>
+          </span>
         </li>
         <li className="nav-item mx-4">
-          <a className="nav-link" href="/">
+          <span
+            onClick={() => {
+              setAboutSelected(false);
+              setPortfolioSelected(false);
+              setContactSelected(false);
+              setResumeSelected(true);
+            }}
+          >
             Resume
-          </a>
+          </span>
         </li>
       </ul>
     </nav>
