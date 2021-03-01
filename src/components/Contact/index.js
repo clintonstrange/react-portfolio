@@ -37,60 +37,68 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="m-3">
-      <h1 className="font-color text-center" data-testid="h1tag">
-        Contact me
-      </h1>
-      <form
-        className="container form-group"
-        id="contact-form"
-        onSubmit={handleSubmit}
-      >
-        <div className="row p-2">
-          <label htmlFor="name">Name:</label>
-          <input
-            className="w-100"
-            type="text"
-            name="name"
-            defaultValue={name}
-            onBlur={handleChange}
-          />
-        </div>
-        <div className=" form-group row p-2">
-          <label htmlFor="email">Email address:</label>
-          <input
-            className="w-100"
-            type="email"
-            name="email"
-            defaultValue={email}
-            onBlur={handleChange}
-          />
-        </div>
-        <div className="form-group row p-2">
-          <label htmlFor="message">Message:</label>
-          <textarea
-            className="w-100"
-            name="message"
-            rows="5"
-            defaultValue={message}
-            onBlur={handleChange}
-          />
-        </div>
-        {errorMessage && (
-          <div className="row">
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-        <button
-          id="contact-btn"
-          className="row text-center"
-          data-testid="button"
-          type="submit"
+    <div className="d-flex justify-content-center">
+      <section id="contact" className="m-3">
+        <h1 className="font-color text-center" data-testid="h1tag">
+          Contact me
+        </h1>
+        <form
+          className="container form-group"
+          id="contact-form"
+          onSubmit={handleSubmit}
         >
-          Submit
-        </button>
-      </form>
-    </section>
+          <div className="row p-2">
+            <label className="label" htmlFor="name">
+              Name:
+            </label>
+            <input
+              className="w-100"
+              type="text"
+              name="name"
+              defaultValue={name}
+              onBlur={handleChange}
+            />
+          </div>
+          <div className="form-group row p-2">
+            <label className="label" htmlFor="email">
+              Email address:
+            </label>
+            <input
+              className="w-100"
+              type="email"
+              name="email"
+              defaultValue={email}
+              onBlur={handleChange}
+            />
+          </div>
+          <div className="form-group row p-2">
+            <label className="label" htmlFor="message">
+              Message:
+            </label>
+            <textarea
+              className="w-100"
+              name="message"
+              rows="5"
+              defaultValue={message}
+              onBlur={handleChange}
+            />
+          </div>
+          {errorMessage && (
+            <div className="row">
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+          <button
+            id="contact-btn"
+            className="row text-center"
+            data-testid="button"
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
+    </div>
   );
 }
 

@@ -84,13 +84,27 @@ code {
   color: #274156;
 }
 
+#contact {
+  max-width: 1000px;
+}
+
+.label {
+  font-size: 21px;
+}
+
 #contact-btn {
   border: 3px solid #74d3ae;
   border-radius: 10px;
   background-color: #1c6e8c;
-  color: #f9e7e73b;
+  color: #f9e7e7;
   padding: 10px 30px;
   margin: 0 auto;
+}
+
+#contact-btn:hover {
+  border-color: #1c6e8c;
+  background-color: #605856;
+  transition: 0.75s;
 }
 
 .foot-icon {
