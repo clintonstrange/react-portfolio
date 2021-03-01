@@ -15,19 +15,19 @@ function Project() {
       repo: "https://github.com/clintonstrange/simad",
     },
     {
-      image: "teton2.jpeg",
-      title: "Photo Port",
+      image: "oh-snap.png",
+      title: "Oh Snap!",
       link: "https://clintonstrange.github.io/photo-port/",
       repo: "https://github.com/clintonstrange/photo-port",
     },
     {
-      image: "lilly2.jpeg",
+      image: "budget-tracker.png",
       title: "Budget Tracker (PWA)",
       link: "https://clints-budget-tracker.herokuapp.com/",
       repo: "https://github.com/clintonstrange/budget-tracker",
     },
     {
-      image: "leia2.jpeg",
+      image: "tech-blog.png",
       title: "Clint's Tech Blog",
       link: "https://shielded-mountain-93398.herokuapp.com/",
       repo: "https://github.com/clintonstrange/tech-blog",
@@ -48,7 +48,7 @@ function Project() {
         <div id="project" className="card p-3 m-3">
           <div className="card-img-top">
             <img
-            id="project-img"
+              id="project-img"
               className="img-fluid rounded mx-auto"
               alt={project.title}
               src={require(`../../assets/images/${project.image}`).default}
