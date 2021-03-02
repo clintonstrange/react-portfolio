@@ -48,12 +48,14 @@ code {
 
 #propic-container {
   max-width: 300px;
+  align-items: flex-start !important;
 }
 
 #propic {
   border-radius: 50%;
   max-width: 100%;
-  max-height: 400px !important;
+  /* max-height: 400px !important; */
+  height: intrinsic;
 }
 
 #about-text {
