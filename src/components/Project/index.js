@@ -3,37 +3,37 @@ import React, { useState } from "react";
 function Project() {
   const [projects] = useState([
     {
-      image: "movie-hub.png",
+      image: "movie-hub.gif",
       title: "Movie-Hub",
       link: "https://clintonstrange.github.io/movie-hub/",
       repo: "https://github.com/clintonstrange/movie-hub",
     },
     {
-      image: "victor.png",
+      image: "victors.gif",
       title: "Victor's Dealership",
       link: "https://victorscardealership.herokuapp.com/",
       repo: "https://github.com/clintonstrange/simad",
     },
     {
-      image: "oh-snap.png",
+      image: "oh-snap.gif",
       title: "Oh Snap!",
       link: "https://clintonstrange.github.io/photo-port/",
       repo: "https://github.com/clintonstrange/photo-port",
     },
     {
-      image: "budget-tracker.png",
+      image: "budget-tracker.gif",
       title: "Budget Tracker (PWA)",
       link: "https://clints-budget-tracker.herokuapp.com/",
       repo: "https://github.com/clintonstrange/budget-tracker",
     },
     {
-      image: "tech-blog.png",
+      image: "tech-blog.gif",
       title: "Clint's Tech Blog",
       link: "https://shielded-mountain-93398.herokuapp.com/",
       repo: "https://github.com/clintonstrange/tech-blog",
     },
     {
-      image: "run-buddy2.jpeg",
+      image: "run-buddy.gif",
       title: "run Buddy",
       link: "https://clintonstrange.github.io/run-buddy/",
       repo: "https://github.com/clintonstrange/run-buddy",
