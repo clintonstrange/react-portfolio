@@ -48,12 +48,12 @@ code {
 
 #propic-container {
   max-width: 300px;
-  max-height: 600px !important;
 }
 
 #propic {
   border-radius: 50%;
   max-width: 100%;
+  max-height: 600px !important;
   height: fit-content;
 }
 
