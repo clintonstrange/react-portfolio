@@ -46,7 +46,7 @@ function Project() {
           <div className="card-img-top">
             <img
               id="project-img"
-              className="rounded mx-auto"
+              className="img-fluid rounded mx-auto"
               alt={project.title}
               src={require(`../../assets/images/${project.image}`).default}
             />
