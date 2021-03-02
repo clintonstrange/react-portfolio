@@ -54,7 +54,7 @@ code {
   border-radius: 50%;
   max-width: 100%;
   /* max-height: 600px !important; */
-  height: intrinsic !important;
+  height: intrinsic;
 }
 
 #about-text {
