@@ -9,7 +9,7 @@ function Footer() {
       <a href="https://github.com/clintonstrange">
         <span className="foot-icon fab fa-github display-4 m-4"></span>
       </a>
-      <a href="www.linkedin.com/in/clint-strange" target="blank">
+      <a href="https://www.linkedin.com/in/clint-strange/" target="blank">
         <span className="foot-icon fab fa-linkedin display-4 m-4"></span>
       </a>
     </div>
