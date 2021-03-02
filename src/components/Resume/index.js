@@ -12,7 +12,7 @@ function Resume() {
             <a
               className="card-text"
               href="/clint-strange-resume.pdf"
-              download="clint-strange-resume.pdf"
+              download="/clint-strange-resume.pdf"
             >
               resume.
             </a>
