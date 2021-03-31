@@ -3,6 +3,12 @@ import React, { useState } from "react";
 function Project() {
   const [projects] = useState([
     {
+      image: "run-buddy.gif",
+      title: "Whatever Works 2.0",
+      link: "https://clintonstrange.github.io/run-buddy/",
+      repo: "https://github.com/clintonstrange/custom-forms",
+    },
+    {
       image: "movie-hub.gif",
       title: "Movie-Hub",
       link: "https://clintonstrange.github.io/movie-hub/",
@@ -31,12 +37,6 @@ function Project() {
       title: "Clint's Tech Blog",
       link: "https://shielded-mountain-93398.herokuapp.com/",
       repo: "https://github.com/clintonstrange/tech-blog",
-    },
-    {
-      image: "run-buddy.gif",
-      title: "run Buddy",
-      link: "https://clintonstrange.github.io/run-buddy/",
-      repo: "https://github.com/clintonstrange/run-buddy",
     },
   ]);
   return (
