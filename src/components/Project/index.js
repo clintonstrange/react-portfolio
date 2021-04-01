@@ -3,9 +3,9 @@ import React, { useState } from "react";
 function Project() {
   const [projects] = useState([
     {
-      image: "run-buddy.gif",
+      image: "whatever-works.gif",
       title: "Whatever Works 2.0",
-      link: "https://clintonstrange.github.io/run-buddy/",
+      link: "https://whatever-works-2.herokuapp.com/",
       repo: "https://github.com/clintonstrange/custom-forms",
     },
     {
