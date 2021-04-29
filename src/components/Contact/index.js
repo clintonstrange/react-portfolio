@@ -38,11 +38,11 @@ function Contact() {
 
   return (
     <div className="d-flex justify-content-center">
-      <section id="contact" className="m-3">
-        <h1 className="font-color text-center" data-testid="h1tag">
-          Contact me
+      <section id="contact" className="m-3 p-4">
+        <h1 className="text-center" data-testid="h1tag">
+        <a className="font-color" href="mailto: clintonstrange@hotmail.com">Contact Me</a>
         </h1>
-        <form
+        {/* <form
           className="container form-group"
           id="contact-form"
           onSubmit={handleSubmit}
@@ -96,7 +96,7 @@ function Contact() {
           >
             Submit
           </button>
-        </form>
+        </form> */}
       </section>
     </div>
   );
