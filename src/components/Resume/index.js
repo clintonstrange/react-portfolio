@@ -28,8 +28,10 @@ function Resume() {
               <li className="font-color">Responsive Design</li>
               <li className="font-color">Progressive Web Applicaitons</li>
               <li className="font-color">React</li>
+              <li className="font-color">Redux</li>
               <li className="font-color">Bootstrap</li>
               <li className="font-color">Bulma</li>
+              <li className="font-color">Materialize</li>
             </ul>
             <h4 className="font-color">Back End</h4>
             <ul>
