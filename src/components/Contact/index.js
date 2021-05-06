@@ -40,7 +40,7 @@ function Contact() {
     <div className="d-flex justify-content-center">
       <section id="contact" className="m-3 p-4">
         <h1 className="text-center" data-testid="h1tag">
-        <a className="font-color" href="mailto: clintonstrange@hotmail.com">Contact Me</a>
+        <a className="font-color" href="mailto: clintonstrange@hotmail.com">Contact Me @ clintonstrange@hotmail.com</a>
         </h1>
         {/* <form
           className="container form-group"
